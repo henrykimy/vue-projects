@@ -9,7 +9,7 @@ export default {
       }
     },
     fontFamily: {
-      Roboto: ["Roboto, sans-serif"],
+      NanumGothic: ["Nanum Gothic, sans-serif"],
     },
     container: {
       padding: "2rem",
