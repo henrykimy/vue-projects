@@ -115,7 +115,7 @@ import { useRoute, useRouter } from 'vue-router';
 const route = useRoute();
 
 /* 날씨 API 키 */
-const API_KEY = 'ecaecef7927b53b5b9e73ff25591185c';
+const API_KEY = '';
 const getWeatherdata = async () => {
     try {
         const weatherData = await axios.get(`https://api.openweathermap.org/data/2.5/onecall?lat=${route.query.lat}&lon=${route.query.lng}&lang=kr&exclude={part}&appid=${API_KEY}&units=metric`)

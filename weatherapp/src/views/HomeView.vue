@@ -70,7 +70,7 @@ const searchError = ref(null);
 /* 검색어 */
 const searchQuery = ref('');
 /* 날씨 API 키 */
-const API_KEY = "pk.eyJ1IjoiaGVucnlraW15IiwiYSI6ImNscnJlbnFpdjBkbWIya256ZXZ2Y3o2MG8ifQ.SscSqUqc3gBaSiYK593GSw";
+const API_KEY = "";
 const getSearchResults = () => {
     /* 이전 검색 기록 조기화 */
     clearTimeout(queryTimeout.value);

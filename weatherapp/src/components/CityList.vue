@@ -19,7 +19,7 @@ const getCities = async () => {
     }
 
     const requests = [];
-    const API_KEY = 'ecaecef7927b53b5b9e73ff25591185c';
+    const API_KEY = '';
     savedCities.value.forEach(city => {
         requests.push(
             axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${city.coords.lat}&lon=${city.coords.lng}&appid=${API_KEY}&units=metric`)
